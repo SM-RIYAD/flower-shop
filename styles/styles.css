@@ -1,7 +1,8 @@
+
+/* shared styles */
 body {
     font-family: 'Roboto', sans-serif;
 }
-/* shared styles */
 .text-secondary {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -29,6 +30,7 @@ body {
     padding-top: 50px;
     padding-left: 150px;
     padding-right: 150px;
+    margin-bottom: 100px;
 }
 
 .header-pic {
@@ -140,13 +142,16 @@ width:70%;
     padding-bottom: 60px;
     margin-top: 100px;
 }
+.hot-deal-contents{
+    margin-top:100px;
+}
 
 .hot-deal-title {
 
 
     color: #272727;
 
-    font-size: 30px;
+    font-size: xx-large;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -254,4 +259,58 @@ margin-right: 5px;
     font-size: 15px;
     border: 0;
     width:500px;
+}
+/* footer styles */
+.footer{
+
+    background-color: black;
+ margin-top: 100px;
+    padding:150px 150px;
+}
+footer h1{
+
+    text-align: center;
+    font-size: xx-large;
+}
+footer p{
+
+    
+    text-align: center;
+}
+.footer-description{
+color:#FFFFFFE5
+}
+.footer-text{
+    color:#FFFFFF66;
+}
+/* review styles */
+.reviews{
+    background-color: #E554731A;
+    
+    margin-top: 100px;
+      
+       padding-left:50px;
+       padding-right:50px;
+       padding-top:20px;
+       padding-bottom:150px;
+       margin-bottom: 100px;
+   }
+   .review-content{
+    display: flex;
+    gap:50px;
+    padding-left: 50px;
+    padding-right: 30px;
+
+   }
+   .reviews h1{
+
+    padding-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+   }
+
+.review-text{
+
+    font-size: x-large;
+    color: rgba(39, 39, 39, 0.60);
 }
