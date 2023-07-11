@@ -1,109 +1,205 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-.header{
-
-background-color: #E554731A;
-display: flex;
-gap: 10px;
-padding-top: 50px;
-padding-left: 150px;
-padding-right: 150px;
+/* shared styles */
+.text-secondary {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 20px 43px;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+}
+/* header styles */
+.header {
+
+    background-color: #E554731A;
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .header-pic {
 
-   
+
     width: 535px;
     height: 650px;
 }
-.header-title{
+
+.header-title {
 
     font-size: 70px;
-font-style: normal;
-font-weight: 800;
+    font-style: normal;
+    font-weight: 800;
 }
 
 /* features section styles */
-.features{
+.features {
     padding: 0 200px;
 
-}
-.features h1 {
-padding-top:50px;
-text-align: center;
-}
-.features p ,h3 {
- 
-    text-align: center;
-    }
-    .feature-contents{
 
-        display:flex;
-        gap: 10px;
-    }
-    /* .feature-contents img{
+}
+
+.features h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.features p,
+h3 {
+
+    text-align: center;
+}
+
+.feature-contents {
+
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+/* .feature-contents img{
 
 width:70%;
 } */
-    .card1-pic{
-background-color: #A7216226;
+.card1-pic {
+    background-color: #A7216226;
 
 
-width: 350px;
-height: 430px;
-border-radius: 300px 300px 0px 0px;
-    }
-    .card1-image{
-        
-        width:70%;
-        margin-top: 90px;
-        margin-left:50px;
-
-    }
-    .card2-pic{
-background-color: #0597A026;
-
-width: 350px;
-height: 430px;
-border-radius: 300px 300px 0px 0px;
-        
-    }
-    .card2-image{
-        
-        width:80%;
-        margin-top: 90px;
-        margin-left:50px;
-
-    }
-    .card3-pic{
-background-color: #477D1126;
-/* width: 450px;
-height: 530px; */
-width: 350px;
-height: 430px;
-border-radius: 300px 300px 0px 0px;
-    }
-    .card3-image{
-        
-        width:70%;
-        margin-top: 60px;
-        margin-left:50px;
-
-    }
-/* shared styles */
-.text-secondary{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    width: 350px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
 }
-.btn-primary{
-    border-radius: 8px;
-    background: #E55473;
- color: white;
- padding: 20px 43px;
- font-weight: 500;
- font-size: 20px;
+
+.card1-image {
+
+    width: 70%;
+    margin-top: 90px;
+    margin-left: 50px;
+
+}
+
+.card2-pic {
+    background-color: #0597A026;
+
+    width: 350px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.card2-image {
+
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 50px;
+
+}
+
+.card3-pic {
+    background-color: #477D1126;
+
+    width: 350px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.card3-image {
+
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+/* hot deals section styles */
+
+
+.hot-deal {
+
+    background-color: #E554730D;
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+
+.hot-deal-title {
+
+
+    color: #272727;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-deal-image {
+
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+}
+
+.special-text {
+
+    color: #E55473;
+}
+
+.btn-area {
+
+
+    display: flex;
+
+
+    justify-content: center;
+}
+
+/* instagram styles */
+
+.instagram {
+
+
+    padding: 0 200px;
+
+margin-bottom: 100px;
+
+}
+
+.instagram h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.instagram p {
+
+    text-align: center;
+}
+.instagram-contents{
+
+    display: flex;
+    gap:15px;
+    margin-top:10px
+}
+.insta-image{
+
+height: 300px;
 }
