@@ -47,9 +47,10 @@ body {
 
 /* features section styles */
 .features {
-    padding: 0 200px;
-
-
+    /* padding: 0 200px; */
+    margin-right:  150px;
+    margin-left: 250px;
+    width: 1080px;
 }
 
 .features h1 {
@@ -177,9 +178,12 @@ width:70%;
 .instagram {
 
 
-    padding: 0 200px;
+    margin-right:  150px;
+    margin-left: 250px;
 
 margin-bottom: 100px;
+/* height: 449px; */
+width: 1080px;
 
 }
 
@@ -202,4 +206,52 @@ margin-bottom: 100px;
 .insta-image{
 
 height: 300px;
+}
+/* latest deals styles */
+.latest-deals{
+
+    margin-right:  150px;
+    margin-left: 250px;
+
+margin-bottom: 100px;
+background-image: url("../images/Rectangle\ 9.png");
+border-radius: 5px;
+/* width: 1440px;
+height: 449px; */
+width: 1080px;
+height: 349px;
+background-repeat: no-repeat;
+/* background-size:contain; */
+border: solid 0px black;
+background-size: cover;
+}
+.latest-deals p {
+
+    text-align: center;
+}
+.latest-deals h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: xx-large;
+}
+.latest-deals button{
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 0;
+
+}
+.latest-deals input{
+
+    border-radius: 8px;
+margin-left: 200px;
+margin-right: 5px;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 0;
+    width:500px;
 }
