@@ -2,6 +2,7 @@
 /* shared styles */
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .text-secondary {
     color: rgba(39, 39, 39, 0.60);
@@ -37,12 +38,12 @@ body {
 
 
     width: 535px;
-    height: 650px;
+    height: 550px;
 }
 
 .header-title {
 
-    font-size: 70px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
 }
@@ -50,11 +51,17 @@ body {
 /* features section styles */
 .features {
     /* padding: 0 200px; */
-    margin-right:  150px;
-    margin-left: 250px;
-    width: 1080px;
-}
+display: flex;
 
+    padding-left: 10%;
+    /* padding-right: 10%; */
+    margin-bottom: 100px;
+    width: 80%;
+}
+.div-to-align{
+
+align-items: center;
+}
 .features h1 {
     padding-top: 50px;
     text-align: center;
@@ -182,13 +189,12 @@ width:70%;
 
 .instagram {
 
+    display: flex;
 
-    margin-right:  150px;
-    margin-left: 250px;
-
-margin-bottom: 100px;
-/* height: 449px; */
-width: 1080px;
+    padding-left: 10%;
+    /* padding-right: 10%; */
+    margin-bottom: 100px;
+    width: 80%;
 
 }
 
@@ -215,18 +221,16 @@ height: 300px;
 /* latest deals styles */
 .latest-deals{
 
-    margin-right:  150px;
-    margin-left: 250px;
+  
 
-margin-bottom: 100px;
+margin-bottom: 50px;
 background-image: url("../images/Rectangle\ 9.png");
 border-radius: 5px;
-/* width: 1440px;
-height: 449px; */
+
 width: 1080px;
 height: 349px;
 background-repeat: no-repeat;
-/* background-size:contain; */
+
 border: solid 0px black;
 background-size: cover;
 }
@@ -247,6 +251,16 @@ background-size: cover;
     font-weight: 500;
     font-size: 15px;
     border: 0;
+
+}
+.latest{
+
+    display: flex;
+
+    padding-left: 10%;
+  
+    margin-bottom: 100px;
+    width: 80%;
 
 }
 .latest-deals input{
@@ -287,13 +301,13 @@ color:#FFFFFFE5
 .reviews{
     background-color: #E554731A;
     
-    margin-top: 100px;
+    margin-top: 50px;
       
        padding-left:50px;
        padding-right:50px;
        padding-top:20px;
        padding-bottom:150px;
-       margin-bottom: 100px;
+       margin-bottom: 50px;
    }
    .review-content{
     display: flex;
